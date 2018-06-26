@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #EDEDED;
+  width: 100%;
+}
+
+.header-contents {
+  max-width: 940px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1em;
+}
+
+#usd {
+  max-width: 940px;
+  background-color: gray;
+}
+
+#jpy {
+  max-width: 940px;
+  background-color: gray;
+}
