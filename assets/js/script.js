@@ -24,3 +24,11 @@ function calculateHour() {
       document.getElementById('myWageJp').innerHTML = wagetxtjp;
     }
   }
+
+
+
+
+
+
+
+
