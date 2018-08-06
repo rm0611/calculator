@@ -26,9 +26,16 @@ function calculateHour() {
   }
 
 
-
-
-
-
-
+  function calculateHourEu() {
+    var montheu = document.getElementById('monthlyeu').value;
+    var hourseu = document.getElementById('hourseu').value;
+    if (montheu == null || montheu == '' || hourseu == null || hourseu =='') {
+      window.alert('Please only type in integers in the text field!');   
+    } else {
+      var wageeu = montheu / hourseu;
+      var wagetexteu;
+      wagetexteu = 'Your hourly wage in Euros is ' + wageeu + ' euros.';
+      document.getElementById('myWageEu').innerHTML = wagetexteu;
+    }
+  }
 
