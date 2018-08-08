@@ -7,12 +7,20 @@ header {
   margin: 0 auto;
   background-color: #EDEDED;
   width: 100%;
+  height: auto;
+  padding: 20px auto;
 }
 
-.header-contents {
+.contents {
   max-width: 940px;
   text-align: center;
   margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: gray;
+  width: 100%;
 }
 
 h1 {
