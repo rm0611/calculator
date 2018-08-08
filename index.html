@@ -6,67 +6,56 @@
   <title>The hourly wage calculator
   </title>
   <meta charset="utf-8">
-  <meta name="description" content="Welcome to the hourly wage calculator. This page is a simple tool for you to calculate (assuming you have like a monthly income) how much you earn on an hourly basis. I started this project when I was wondering how much I was making in an hour. ">
+  <meta name="description" content="Welcome to the hourly wage calculator. This page is a simple tool for you to calculate (assuming you have like a monthly income) how much you earn on an hourly basis. I started this project when I was wondering how much I was making in an hour, amnd simultaneously wanted to learn the basics of Web development with Javascript. ">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="assets/js/script.js"></script>
 </head>
 
 <body>
   <header>
-  <h1 class="header-contents">The hourly wage calculator</h1>
+    <h1 class="header-contents">The hourly wage calculator</h1>
   </header>
-  
   <section id="calculator">
-
-  <article id = "usd">
-    <h2>Getting paid in USD?</h2>
-    <p>My monthly salary is
-      <input id="monthly" name="monthly" type="number" value="3000"> dollars
-    </p>
-    <p>I work about
-      <input id="hours" name="hours" type="number" value="160"> hours a month
-    </p>
-    <button onclick='calculateHour()'>
-      Calculate!
-    </button>
-    <p id='myWage'></p>
-  </article>
-  
-  <article id ="jpy">
-    <h2>日本円で給料を支払われていますか？</h2>
-    <p>私の月給は
-      <input id="monthlyjp" name="monthly" type="number" value="300000"> 円です。
-    </p>
-    <p>私は１ヶ月に
-      <input id="hoursjp" name="hours" type="number" value="160"> 時間働いています。
-    </p>
-    <button onclick='calculateHourJp()'>
-      時間給を計算する！
-    </button>
-    <p id='myWageJp'></p>
+    <article id="usd">
+      <h2>Getting paid in USD?</h2>
+      <p>My monthly salary is
+        <input id="monthly" name="monthly" type="number" value="3000"> dollars
+      </p>
+      <p>I work about
+        <input id="hours" name="hours" type="number" value="160"> hours a month
+      </p>
+      <button onclick='calculateHour()'>
+        Calculate!
+      </button>
+      <p id='myWage'></p>
     </article>
-
-   <article id ="eu">
-    <h2>Getting paid in Euros？</h2>
-    <p>My monthly salary in Euros is
-      <input id="monthlyeu" name="monthly" type="number" value="3000"> euros.
-    </p>
-    <p>I work about
-      <input id="hourseu" name="hours" type="number" value="160"> hours a month.
-    </p>
-    <button onclick='calculateHourEu()'>
-      Calculate!
-    </button>
-    <p id='myWageEu'></p>
-    </article>    
-
+    <article id="jpy">
+      <h2>日本円で給料を支払われていますか？</h2>
+      <p>私の月給は
+        <input id="monthlyjp" name="monthly" type="number" value="300000"> 円です。
+      </p>
+      <p>私は１ヶ月に
+        <input id="hoursjp" name="hours" type="number" value="160"> 時間働いています。
+      </p>
+      <button onclick='calculateHourJp()'>
+        時間給を計算する！
+      </button>
+      <p id='myWageJp'></p>
+    </article>
+    <article id="eu">
+      <h2>Getting paid in Euros？</h2>
+      <p>My monthly salary in Euros is
+        <input id="monthlyeu" name="monthly" type="number" value="3000"> euros.
+      </p>
+      <p>I work about
+        <input id="hourseu" name="hours" type="number" value="160"> hours a month.
+      </p>
+      <button onclick='calculateHourEu()'>
+        Calculate!
+      </button>
+      <p id='myWageEu'></p>
+    </article>
   </section>
-
-
-
-
-
-
-
-  </body>
+</body>
 
 </html>
