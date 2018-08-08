@@ -3,8 +3,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
 <head>
-  <title>The hourly wage calculator
-  </title>
+  <title>The hourly wage calculator</title>
   <meta charset="utf-8">
   <meta name="description" content="Welcome to the hourly wage calculator. This page is a simple tool for you to calculate (assuming you have like a monthly income) how much you earn on an hourly basis. I started this project when I was wondering how much I was making in an hour, amnd simultaneously wanted to learn the basics of Web development with Javascript. ">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,8 +15,8 @@
     <h1 class="header-contents">The hourly wage calculator</h1>
   </header>
   <section id="calculator">
-    <article id="usd">
-      <h2>Getting paid in USD?</h2>
+    <article class="boxes">
+      <h2>Getting paid in US Dollars?</h2>
       <p>My monthly salary is
         <input id="monthly" name="monthly" type="number" value="3000"> dollars
       </p>
@@ -29,7 +28,7 @@
       </button>
       <p id='myWage'></p>
     </article>
-    <article id="jpy">
+    <article class="boxes">
       <h2>日本円で給料を支払われていますか？</h2>
       <p>私の月給は
         <input id="monthlyjp" name="monthly" type="number" value="300000"> 円です。
@@ -42,7 +41,7 @@
       </button>
       <p id='myWageJp'></p>
     </article>
-    <article id="eu">
+    <article class="boxes">
       <h2>Getting paid in Euros？</h2>
       <p>My monthly salary in Euros is
         <input id="monthlyeu" name="monthly" type="number" value="3000"> euros.

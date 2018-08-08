@@ -27,17 +27,46 @@ p {
   font-size: 1em;
 }
 
-#usd {
-  max-width: 940px;
-  background-color: gray;
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1em;
 }
 
-#jpy {
-  max-width: 940px;
-  background-color: gray;
+button {
+  width: 100%;
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  background:  #668ad8;
+  border-bottom: solid 2px #627295;
+  border-radius: 3px;
+  font-size: 1em;
 }
 
-#eu {
+button:active { /*pressed state*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*move down*/
+  border-bottom: none; /*erase line*/
+}
+
+#calculator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
   max-width: 940px;
-  background-color: gray;
+  position: relative;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.boxes {
+  max-width: 250px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: lightgray;
 }
