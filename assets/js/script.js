@@ -37,3 +37,5 @@ function calculateHourEu() {
     document.getElementById('myWageEu').innerHTML = wagetexteu;
   }
 }
+
+
